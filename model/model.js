@@ -8,6 +8,8 @@ const uploadSchema = new mongoose.Schema(
         file: String,
         adminId: String,
         selectedOption: String,
+        description:String,
+        Link:String,
     }
 )
 
