@@ -27,7 +27,7 @@ const customermail = async (emails) => {
           padding: 20px;
         ">
         <h2 style="text-align: center">
-          THANKS FOR CREATING AN ADMIN ACCOUNT WITH US.
+          THANKS FOR CREATING AN ADMIN ACCOUNT WITH US AT LOVELYMART.
         </h2>
         <h3 style="text-align: center">
           Welcome to our site. <br />
