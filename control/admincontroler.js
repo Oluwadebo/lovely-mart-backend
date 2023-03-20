@@ -64,12 +64,11 @@ const admin = (req, res) => {
             })
         }
     })
-
 }
 
 const file = (req, res) => {
     let userfile = req.body.file;
-    cloudinary.v2.uploader.upload(userfile, { folder: "Ecommerce" }, (err, result) => {
+    cloudinary.v2.uploader.upload(userfile, { folder: "loverlymert" }, (err, result) => {
         if (err) {
             res.send({ message: "Upload failed", status: false })
         } else {

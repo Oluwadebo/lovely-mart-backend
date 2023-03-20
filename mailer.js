@@ -17,7 +17,7 @@ const customermail = async (emails) => {
   let info = await transporter.sendMail({
     from: process.env.EMAIL,
     to: emails,
-    subject: "Anthony app ✔",
+    subject: "lovelymart ✔",
     // text: "Hello world?",
     html: `<div
         style="
@@ -27,21 +27,21 @@ const customermail = async (emails) => {
           padding: 20px;
         ">
         <h2 style="text-align: center">
-          THANKS FOR CREATING AN ACCOUNT WITH US.
+          THANKS FOR CREATING AN ADMIN ACCOUNT WITH US.
         </h2>
         <h3 style="text-align: center">
           Welcome to our site. <br />
           Your account was successfully created at <span>${date}</span>.
         </h3>
         <h4 style="text-align: center">
-          Contact 09044796430 or Email: ogunweoluwadebo@gmail.com <br />
-          for WEB SITE DEVELOPMENT
+          Contact 09044796430 or Email: ogunweoluwadebo1@gmail.com <br />
+          for any WEB SITE DEVELOPMENT
         </h4>
       </div>`,
 
   });
 
-  console.log(info);
+  // console.log(info);
 }
 
 const adminmail = async (emails) => {
